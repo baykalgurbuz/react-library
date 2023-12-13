@@ -1,21 +1,21 @@
 import './App.css';
 import { Navbar } from './layout/NavbarAndFooter/Navbar';
-import { ExploreTopBooks } from './layout/HomePage/ExploreTopBooks';
-import { Carousel } from './layout/HomePage/Carousel';
-import { Heros } from './layout/HomePage/Heros';
-import { LibraryServices } from './layout/HomePage/LibraryServices';
+import { ExploreTopBooks } from './layout/HomePage/components/ExploreTopBooks';
+import { Carousel } from './layout/HomePage/components/Carousel';
+import { Heros } from './layout/HomePage/components/Heros';
+import { LibraryServices } from './layout/HomePage/components/LibraryServices';
+import { Footer } from './layout/NavbarAndFooter/Footer';
+import { HomePage } from './layout/HomePage/HomePage';
  
 
-function App() {
+export const  App=()=> {
   return (
     <div>
     <Navbar/>
-    <ExploreTopBooks/>
-    <Carousel/>
-    <Heros/>
-    <LibraryServices/>
+    <HomePage/>
+    <Footer/>
     </div>
   );
 }
 
-export default App;
+ 
