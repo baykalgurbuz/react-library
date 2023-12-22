@@ -6,13 +6,15 @@ import { Heros } from './layout/HomePage/components/Heros';
 import { LibraryServices } from './layout/HomePage/components/LibraryServices';
 import { Footer } from './layout/NavbarAndFooter/Footer';
 import { HomePage } from './layout/HomePage/HomePage';
+import { SearchBookPage } from './layout/SearchBookPage/SearchBookPage';
  
 
 export const  App=()=> {
   return (
     <div>
     <Navbar/>
-    <HomePage/>
+    {/* <HomePage/> */}
+    <SearchBookPage/>
     <Footer/>
     </div>
   );
